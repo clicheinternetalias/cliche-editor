@@ -141,7 +141,7 @@ function revertOptions()
   localStorage["options"] = JSON.stringify(defaultOptions);
   options = JSON.parse(localStorage["options"]);
 }
-revertOptions();
+//revertOptions();
 
 function splitFilterString(s)
 {
@@ -244,7 +244,7 @@ function init()
   });
 
   gEditor = new ImageEditor("imgbox", onProgress, onError);
-  loadImageFromUrl("sample.jpg");
+  //loadImageFromUrl("sample.jpg");
 }
 
 </script>
